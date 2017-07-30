@@ -1,0 +1,1149 @@
+{
+  "logs": [],
+  "results": {
+    "all": [],
+    "all.python": [
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 7
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 7
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py": "--- \n+++ \n@@ -4,7 +4,7 @@\n class Moore(object):\n     \"\"\"Moore Machine : Finite Automata with Output\"\"\"\n \n-    def __init__(self, states, input_alphabet, output_alphabet, transitions, initial_state, output_table ):\n+    def __init__(self, states, input_alphabet, output_alphabet, transitions, initial_state, output_table):\n         \"\"\"\n         states: Finite set of states\n         input_alphabet: Alphabet of letters for forming input string\n"
+        },
+        "id": 272953356273100737327615810179921218651,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 45
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 44
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py": "--- \n+++ \n@@ -41,8 +41,9 @@\n             try:\n                 mealy_transitions[x] = {}\n \n-                for  a in self.input_alphabet:\n-                    mealy_transitions[x][a] = (self.transitions[x][a], self.output_table[self.transitions[x][a]])\n+                for a in self.input_alphabet:\n+                    mealy_transitions[x][a] = (\n+                        self.transitions[x][a], self.output_table[self.transitions[x][a]])\n \n             except KeyError as e:\n                 pass\n"
+        },
+        "id": 23256202070185809267185371083479058342,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 55
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 55
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py": "--- \n+++ \n@@ -52,7 +52,7 @@\n         mealy_initial_state = self.initial_state\n         mealy_states = self.states\n \n-        #print(mealy_transitions)\n+        # print(mealy_transitions)\n \n         from automata.fa.Mealy import Mealy\n \n"
+        },
+        "id": 100355281149708599362984865739598076083,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 80
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 80
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py": "--- \n+++ \n@@ -79,6 +79,7 @@\n \n         return output\n \n+\n \"\"\"\n moore = Moore(['q0', 'q1', 'q2', 'q3'],\n               ['a' , 'b'],\n"
+        },
+        "id": 290675611193839988358624746929747685962,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 125
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+              "line": 125
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py": "--- \n+++ \n@@ -122,4 +122,4 @@\n print(moore.get_output_from_string('abbba'))\n print(moore.convert_to_mealy())\n \n-\"\"\"+\"\"\"\n"
+        },
+        "id": 298805049487096553670108086221438213442,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 26
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 22
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -19,11 +19,11 @@\n         F is a set of final state/states of Q (F \u2286 Q).\n         \"\"\"\n \n-        self.states = states                        #list\n-        self.alphabet = alphabet                    #list\n-        self.transitions = transitions              #dict\n-        self.initial_state = initial_state          #char\n-        self.final_states = final_states            #list\n+        self.states = states  # list\n+        self.alphabet = alphabet  # list\n+        self.transitions = transitions  # dict\n+        self.initial_state = initial_state  # char\n+        self.final_states = final_states  # list\n \n         \"\"\"\n         states=['q0', 'q1'],\n"
+        },
+        "id": 71366300509289163530846659402225518712,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 53
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 53
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -50,7 +50,8 @@\n                     temp_cur_state = []\n                     for state in current_state:\n                         if letter in self.transitions[state]:\n-                            temp_cur_state.push(self.transitions[state][letter])\n+                            temp_cur_state.push(\n+                                self.transitions[state][letter])\n                     current_state = temp_cur_state\n \n                 elif isinstance(current_state, str):\n"
+        },
+        "id": 265924327492416851334543505386652443457,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 81
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 81
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -78,7 +78,7 @@\n \n         temp_init_state_list = [self.initial_state]\n \n-        foo_dict = {str(temp_init_state_list): self.transitions[self.initial_state]}\n+        foo_dict = {str(temp_init_state_list)                    : self.transitions[self.initial_state]}\n \n         s = Stack()\n         q = Stack()\n"
+        },
+        "id": 165789055517628978931478540381889647200,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 119
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 119
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -116,7 +116,7 @@\n         dfa_initial_state = 'Q0'\n \n         i = 0\n-        map_states ={}\n+        map_states = {}\n         for a in foo_dict.keys():\n             map_states[a] = 'Q' + str(i)\n             i+=1\n"
+        },
+        "id": 51442651426150810650344130726741142861,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 122
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 122
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -119,7 +119,7 @@\n         map_states ={}\n         for a in foo_dict.keys():\n             map_states[a] = 'Q' + str(i)\n-            i+=1\n+            i += 1\n \n         dfa_transitions = {}\n         dfa_finial_states = []\n"
+        },
+        "id": 47431361927205607908133203505622917675,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 132
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 132
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -129,7 +129,7 @@\n             dfa_transitions[map_states[a]] = {}\n             for b in self.alphabet:\n \n-                if  set(foo_dict[a][b]).isdisjoint(self.final_states):\n+                if set(foo_dict[a][b]).isdisjoint(self.final_states):\n                     if (a) not in dfa_finial_states:\n                         dfa_finial_states.append(map_states[a])\n \n"
+        },
+        "id": 148525434930836579389155621673369615816,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 136
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 136
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -133,7 +133,8 @@\n                     if (a) not in dfa_finial_states:\n                         dfa_finial_states.append(map_states[a])\n \n-                dfa_transitions[map_states[a]][b] = map_states[str(foo_dict[a][b])]\n+                dfa_transitions[map_states[a]\n+                                ][b] = map_states[str(foo_dict[a][b])]\n \n                 if map_states[a] not in dfa_states:\n                     dfa_states.append(map_states[a])\n"
+        },
+        "id": 281269217084739434508071462070427380343,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 145
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 145
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -142,7 +142,8 @@\n                     dfa_states.append(map_states[str(foo_dict[a][b])])\n \n         # Here we go\n-        d = DFA(dfa_states, self.alphabet, dfa_transitions, dfa_initial_state, dfa_finial_states)\n+        d = DFA(dfa_states, self.alphabet, dfa_transitions,\n+                dfa_initial_state, dfa_finial_states)\n         print(d)\n         return d\n \n"
+        },
+        "id": 228731146934433500118358071743607676711,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 173
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 162
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -159,18 +159,16 @@\n         return output\n \n \n-\n d = NDFA(\n-['q0', 'q1'],\n-['a', 'b'],\n-{\n-    'q0': {'a': ['q0', 'q1'], 'b': ['q1']},\n-    'q1': {'a': ['q0'], 'b': ['q1']}\n- },\n- 'q0',\n-['q1']\n+    ['q0', 'q1'],\n+    ['a', 'b'],\n+    {\n+        'q0': {'a': ['q0', 'q1'], 'b': ['q1']},\n+        'q1': {'a': ['q0'], 'b': ['q1']}\n+        },\n+    'q0',\n+    ['q1']\n )\n-\n \n \n \"\"\"\n"
+        },
+        "id": 85475674022821345017942122999302048816,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 180
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+              "line": 180
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py": "--- \n+++ \n@@ -177,4 +177,4 @@\n print (d.convert_to_dfa())\n print(d.is_string_valid('a'))\n print(d)\n-\"\"\"+\"\"\"\n"
+        },
+        "id": 81847448382527323411078072349517721537,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/data_structures/stack.py",
+              "line": 29
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/data_structures/stack.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/data_structures/stack.py",
+              "line": 29
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/data_structures/stack.py": "--- \n+++ \n@@ -26,7 +26,6 @@\n \n         return False\n \n-\n     def __str__(self):\n         output = \"[  \"\n         for x in self.stack:\n"
+        },
+        "id": 166927173085525545400579488493824439837,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/data_structures/stack.py",
+              "line": 36
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/data_structures/stack.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/data_structures/stack.py",
+              "line": 36
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/data_structures/stack.py": "--- \n+++ \n@@ -33,4 +33,4 @@\n             output += str(x)\n             output += \", \"\n \n-        return output[:-2] + \" ]\"+        return output[:-2] + \" ]\"\n"
+        },
+        "id": 53112072887744165917575853761863148319,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/language.py",
+              "line": 26
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/language.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/language.py",
+              "line": 26
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/language.py": "--- \n+++ \n@@ -23,7 +23,7 @@\n         \"\"\"\"Add elements to the set of alphabets of the language\"\"\"\n \n         if(type(element) == \"list\"):\n-                self.alphabet = element\n+            self.alphabet = element\n \n         else:\n             self.alphabet.push(element)\n"
+        },
+        "id": 157483840713042944321357672509934534929,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/language.py",
+              "line": 31
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/language.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/language.py",
+              "line": 31
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/language.py": "--- \n+++ \n@@ -28,7 +28,7 @@\n         else:\n             self.alphabet.push(element)\n \n-    def define_rules(self, rule ):\n+    def define_rules(self, rule):\n         \"\"\"Add rule string to python list of rules\"\"\"\n         self.rule.push(rule)\n \n"
+        },
+        "id": 310619395910511464781593966833702502765,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 2
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 2
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py": "--- \n+++ \n@@ -1,5 +1,4 @@\n # -*- coding: utf-8 -*-\n-\n \n \n class Mealy(object):\n"
+        },
+        "id": 253652080074018569206842864054745332968,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 35
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 35
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py": "--- \n+++ \n@@ -32,7 +32,7 @@\n         current_state = self.initial_state\n         output = ''\n         for x in temp_list:\n-            output+= self.transitions[current_state][x][1]\n+            output += self.transitions[current_state][x][1]\n             current_state = self.transitions[current_state][x][0]\n \n         return output\n"
+        },
+        "id": 211516301109385680145596124403855988530,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 83
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 83
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py": "--- \n+++ \n@@ -80,7 +80,8 @@\n \n                 else:\n                     try:\n-                        moore_transitions[x[0] + x[1]][a] = self.transitions[x[0]][a][0]\n+                        moore_transitions[x[0] + x[1]\n+                                          ][a] = self.transitions[x[0]][a][0]\n                     except KeyError as e:\n                         moore_transitions[x[0] + x[1]] = {}\n                         moore_transitions[x[0] + x[1]][a] = self.transitions[x[0]][a][0]\n"
+        },
+        "id": 89374703381385100981930758785112947140,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 86
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 86
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py": "--- \n+++ \n@@ -83,7 +83,8 @@\n                         moore_transitions[x[0] + x[1]][a] = self.transitions[x[0]][a][0]\n                     except KeyError as e:\n                         moore_transitions[x[0] + x[1]] = {}\n-                        moore_transitions[x[0] + x[1]][a] = self.transitions[x[0]][a][0]\n+                        moore_transitions[x[0] + x[1]\n+                                          ][a] = self.transitions[x[0]][a][0]\n \n                     if moore_transitions[x[0] + x[1]][a] not in moore_output_table.keys():\n                         moore_output_table[moore_transitions[x[0] + x[1]][a]] = self.transitions[x[0]][a][1]\n"
+        },
+        "id": 225729305154992825152587047242779794888,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 89
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 89
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py": "--- \n+++ \n@@ -86,7 +86,8 @@\n                         moore_transitions[x[0] + x[1]][a] = self.transitions[x[0]][a][0]\n \n                     if moore_transitions[x[0] + x[1]][a] not in moore_output_table.keys():\n-                        moore_output_table[moore_transitions[x[0] + x[1]][a]] = self.transitions[x[0]][a][1]\n+                        moore_output_table[moore_transitions[x[0] +\n+                                                             x[1]][a]] = self.transitions[x[0]][a][1]\n \n         for x in self.transitions.keys():\n             if x not in moore_transitions.keys() and x not in temp_list_3:\n"
+        },
+        "id": 119860963076391384569349803003622640402,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 116
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 116
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py": "--- \n+++ \n@@ -113,7 +113,8 @@\n                             moore_transitions[x][a] = self.transitions[x][a][0]\n \n                         if self.transitions[x][a][0] not in moore_output_table.keys():\n-                            moore_output_table[self.transitions[x][a][0]] = self.transitions[x][a][1]\n+                            moore_output_table[self.transitions[x]\n+                                               [a][0]] = self.transitions[x][a][1]\n \n         moore_states = []\n         for s in moore_transitions.keys():\n"
+        },
+        "id": 6656852602402241282291196976189619534,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 136
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 136
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py": "--- \n+++ \n@@ -132,7 +132,6 @@\n         )\n \n         print(moore_from_mealy)\n-\n \n     def __str__(self):\n         output = \"\\nMealy Machine\" + \\\n"
+        },
+        "id": 122709160339612410435322423477797782619,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 147
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 146
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py": "--- \n+++ \n@@ -143,8 +143,6 @@\n                  \"\\nOutput Alphabet\" + str(self.output_alphabet)\n \n         return output\n-\n-\n \n \n \"\"\"\n"
+        },
+        "id": 9179728998480953035565854895349663512,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 219
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py",
+              "line": 219
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py": "--- \n+++ \n@@ -216,4 +216,4 @@\n #print(mealy_2)\n #print(mealy_2.get_output_from_string('0111'))\n print(mealy_3.convert_to_moore())\n-\"\"\"+\"\"\"\n"
+        },
+        "id": 515622240646895798692871063149845437,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 24
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 20
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py": "--- \n+++ \n@@ -17,11 +17,11 @@\n         F is a set of final state/states of Q (F \u2286 Q).\n         \"\"\"\n \n-        self.states = states                        #list\n-        self.alphabet = alphabet                    #list\n-        self.transitions = transitions              #dict\n-        self.initial_state = initial_state          #char\n-        self.final_states = final_states            #list\n+        self.states = states  # list\n+        self.alphabet = alphabet  # list\n+        self.transitions = transitions  # dict\n+        self.initial_state = initial_state  # char\n+        self.final_states = final_states  # list\n \n         \"\"\"\n         states=['q0', 'q1'],\n"
+        },
+        "id": 315986300122785180695484058830012149162,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 61
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 61
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py": "--- \n+++ \n@@ -58,7 +58,8 @@\n \n     def minimize(self):\n \n-        state_list = [list(set(self.states) - set(self.final_states)), self.final_states]\n+        state_list = [\n+            list(set(self.states) - set(self.final_states)), self.final_states]\n \n         foo_dict = {}\n         final_list = []\n"
+        },
+        "id": 223763014030588900843494775503361139363,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 68
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 68
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py": "--- \n+++ \n@@ -65,7 +65,7 @@\n \n         while(1):\n \n-            if state_list == final_list :\n+            if state_list == final_list:\n                 break\n             final_list, foo_dict = self.create_foo_dict(state_list, foo_dict)\n             state_list = self.create_state_list(foo_dict)\n"
+        },
+        "id": 198025965478885595707832227374636207210,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 81
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 81
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py": "--- \n+++ \n@@ -78,7 +78,7 @@\n         for x in state_list:\n             for y in x:\n                 string = 'P' + str(i)\n-                new_states_dict[y] =  string\n+                new_states_dict[y] = string\n                 if y in self.final_states and string not in minified_final_states:\n                     minified_final_states.append(string)\n \n"
+        },
+        "id": 303088614381786190973841182749820916197,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 97
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 97
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py": "--- \n+++ \n@@ -94,7 +94,8 @@\n         for x in self.alphabet:\n             for s in self.states:\n                 try:\n-                    minified_transitions[new_states_dict[s]][x] = new_states_dict[self.transitions[s][x]]\n+                    minified_transitions[new_states_dict[s]\n+                                         ][x] = new_states_dict[self.transitions[s][x]]\n                 except KeyError as e:\n                     minified_transitions[new_states_dict[s]] = {}\n                     minified_transitions[new_states_dict[s]][x] = new_states_dict[self.transitions[s][x]]\n"
+        },
+        "id": 70884550571661828405549752112348907089,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 102
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 100
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py": "--- \n+++ \n@@ -97,9 +97,11 @@\n                     minified_transitions[new_states_dict[s]][x] = new_states_dict[self.transitions[s][x]]\n                 except KeyError as e:\n                     minified_transitions[new_states_dict[s]] = {}\n-                    minified_transitions[new_states_dict[s]][x] = new_states_dict[self.transitions[s][x]]\n+                    minified_transitions[new_states_dict[s]\n+                                         ][x] = new_states_dict[self.transitions[s][x]]\n \n-        minified_dfa = DFA(minified_states, self.alphabet, minified_transitions, minified_initial_state, minified_final_states)\n+        minified_dfa = DFA(minified_states, self.alphabet, minified_transitions,\n+                           minified_initial_state, minified_final_states)\n         print(minified_dfa)\n \n     def create_state_list(self, foo_dict):\n"
+        },
+        "id": 279920719129459437739316062144956734991,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 119
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 119
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py": "--- \n+++ \n@@ -116,7 +116,7 @@\n \n         for x in temp_list_2:\n             state_list_element = []\n-            for k,v in foo_dict.items():\n+            for k, v in foo_dict.items():\n                 if v == x:\n                     state_list_element.append(k)\n             state_list.append(state_list_element)\n"
+        },
+        "id": 173671328156392095011037654835955227797,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 174
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 152
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py": "--- \n+++ \n@@ -150,28 +150,26 @@\n         return output\n \n \n+d = DFA(\n+    ['q0', 'q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10'],\n+    ['a', 'b'],\n+    {\n \n+        'q0': {'a': 'q3', 'b': 'q2'},\n+        'q1': {'a': 'q6', 'b': 'q2'},\n+        'q2': {'a': 'q8', 'b': 'q5'},\n+        'q3': {'a': 'q0', 'b': 'q1'},\n+        'q4': {'a': 'q2', 'b': 'q5'},\n+        'q5': {'a': 'q4', 'b': 'q3'},\n+        'q6': {'a': 'q1', 'b': 'q0'},\n+        'q7': {'a': 'q4', 'b': 'q6'},\n+        'q8': {'a': 'q2', 'b': 'q7'},\n+        'q9': {'a': 'q7', 'b': 'q10'},\n+        'q10': {'a': 'q5', 'b': 'q9'}\n \n-d = DFA(\n-['q0', 'q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8','q9','q10'],\n-['a', 'b'],\n-{\n-\n-    'q0': {'a': 'q3', 'b': 'q2'},\n-    'q1': {'a': 'q6', 'b': 'q2'},\n-    'q2': {'a': 'q8', 'b': 'q5'},\n-    'q3': {'a': 'q0', 'b': 'q1'},\n-    'q4': {'a': 'q2', 'b': 'q5'},\n-    'q5': {'a': 'q4', 'b': 'q3'},\n-    'q6': {'a': 'q1', 'b': 'q0'},\n-    'q7': {'a': 'q4', 'b': 'q6'},\n-    'q8': {'a': 'q2', 'b': 'q7'},\n-    'q9': {'a': 'q7', 'b': 'q10'},\n-    'q10': {'a': 'q5', 'b': 'q9'}\n-\n- },\n-'q0',\n-['q3', 'q4', 'q6','q8']\n+        },\n+    'q0',\n+    ['q3', 'q4', 'q6', 'q8']\n )\n \n d.minimize()\n"
+        },
+        "id": 9990902257597950584633500396908118590,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 182
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+              "line": 182
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py": "--- \n+++ \n@@ -179,4 +179,4 @@\n print(d.is_string_valid('ababba'))\n print(d.convert_to_dfa())\n print(d)\n-\"\"\"+\"\"\"\n"
+        },
+        "id": 316491859443042074247444374725570378308,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      },
+      {
+        "additional_info": "",
+        "affected_code": [
+          {
+            "end": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/testing.py",
+              "line": 5
+            },
+            "file": "/Users/Hemang/Desktop/final/automata-python/automata/testing.py",
+            "start": {
+              "column": null,
+              "file": "/Users/Hemang/Desktop/final/automata-python/automata/testing.py",
+              "line": 1
+            }
+          }
+        ],
+        "aspect": "NoneType",
+        "confidence": 100,
+        "debug_msg": "",
+        "diffs": {
+          "/Users/Hemang/Desktop/final/automata-python/automata/testing.py": "--- \n+++ \n@@ -1,5 +1,5 @@\n-l = [1,2,3]\n-p = [1,2,3]\n+l = [1, 2, 3]\n+p = [1, 2, 3]\n \n-if l==p:\n-    print (\"H\")+if l == p:\n+    print(\"H\")\n"
+        },
+        "id": 278019059215395418874879931854534422422,
+        "message": "The code does not comply to PEP8.",
+        "message_arguments": {},
+        "message_base": "The code does not comply to PEP8.",
+        "origin": "PEP8Bear",
+        "severity": 1
+      }
+    ],
+    "cli": []
+  }
+}

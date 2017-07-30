@@ -1,0 +1,12 @@
+angular.module('coalaHtmlApp')
+.controller('TabCtrl', ['$scope', '$location', function ($scope, $location) {
+		this.tab = $location.path();
+ 	this.setTab = function (stab) {
+  	this.tab = stab;
+  	$location.path(stab);
+  	$(".button-collapse").sideNav('hide');
+  }
+  this.isSet = function (stab) {
+   return $location.path() == stab
+  }
+}])

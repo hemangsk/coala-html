@@ -1,0 +1,17 @@
+{
+  "/Users/Hemang/Desktop/final/automata-python/automata": [
+    "/Users/Hemang/Desktop/final/automata-python/automata/fa",
+    "/Users/Hemang/Desktop/final/automata-python/automata/testing.py",
+    "/Users/Hemang/Desktop/final/automata-python/automata/language.py",
+    "/Users/Hemang/Desktop/final/automata-python/automata/data_structures"
+  ],
+  "/Users/Hemang/Desktop/final/automata-python/automata/data_structures": [
+    "/Users/Hemang/Desktop/final/automata-python/automata/data_structures/stack.py"
+  ],
+  "/Users/Hemang/Desktop/final/automata-python/automata/fa": [
+    "/Users/Hemang/Desktop/final/automata-python/automata/fa/NDFA.py",
+    "/Users/Hemang/Desktop/final/automata-python/automata/fa/DFA.py",
+    "/Users/Hemang/Desktop/final/automata-python/automata/fa/Moore.py",
+    "/Users/Hemang/Desktop/final/automata-python/automata/fa/Mealy.py"
+  ]
+}
